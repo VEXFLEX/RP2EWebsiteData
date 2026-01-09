@@ -5,12 +5,12 @@
       "name": "Human",
       "description": "Humans are the most adaptable and ambitious people among the common races.",
       "ability_score_increase": {
-        "strength": 1,
-        "dexterity": 1,
-        "constitution": 1,
-        "intelligence": 1,
-        "wisdom": 1,
-        "charisma": 1
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0
       },
       "age": "Reach adulthood in late teens, live less than 100 years",
       "size": "Medium",
@@ -18,7 +18,7 @@
       "features": [
         {
           "name": "Versatility",
-          "description": "You gain proficiency in one skill of your choice."
+          "description": "You gain proficiency in one skill of your choice. As well as 4 ability score points to allocate"
         },
         {
           "name": "Languages",
@@ -44,6 +44,29 @@
         {
           "name": "Keen Senses",
           "description": "You have proficiency in the Perception skill."
+        }
+      ]
+    },
+    {
+      "id": "dwarf",
+      "name": "Dwarf",
+      "description": "Dwarves are stubby and hardworkers, they tend to live in mountains or underground, they respect traditions more than anything.",
+      "ability_score_increase": {
+        "strength": 2,
+        "constitution": 2,
+        "dexterity": -1
+      },
+      "age": "Typically claim adulthood around 100, can live to be 750",
+      "size": "Medium",
+      "speed": 30,
+      "features": [
+        {
+          "name": "Darkvision",
+          "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light."
+        },
+        {
+          "name": "Hardy",
+          "description": "You gain 1 hp per level."
         }
       ]
     }
