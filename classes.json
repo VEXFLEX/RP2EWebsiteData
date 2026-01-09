@@ -1,0 +1,25 @@
+{
+  "classes": [
+    {
+      "id": "fighter",
+      "name": "Fighter",
+      "hit_dice": "d10",
+      "primary_ability": ["Strength", "Dexterity"],
+      "saving_throw_proficiencies": ["Strength", "Constitution"],
+      "armor_proficiencies": ["All armor", "Shields"],
+      "weapon_proficiencies": ["Simple weapons", "Martial weapons"],
+      "features": [
+        {
+          "level": 1,
+          "name": "Fighting Style",
+          "description": "You adopt a particular style of fighting as your specialty."
+        },
+        {
+          "level": 2,
+          "name": "Action Surge",
+          "description": "You can push yourself beyond your normal limits for a moment."
+        }
+      ]
+    }
+  ]
+}
