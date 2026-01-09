@@ -1,0 +1,51 @@
+{
+  "races": [
+    {
+      "id": "human",
+      "name": "Human",
+      "description": "Humans are the most adaptable and ambitious people among the common races.",
+      "ability_score_increase": {
+        "strength": 1,
+        "dexterity": 1,
+        "constitution": 1,
+        "intelligence": 1,
+        "wisdom": 1,
+        "charisma": 1
+      },
+      "age": "Reach adulthood in late teens, live less than 100 years",
+      "size": "Medium",
+      "speed": 30,
+      "features": [
+        {
+          "name": "Versatility",
+          "description": "You gain proficiency in one skill of your choice."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and one extra language of your choice."
+        }
+      ]
+    },
+    {
+      "id": "elf",
+      "name": "Elf",
+      "description": "Elves are a magical people of otherworldly grace, living in the world but not entirely part of it.",
+      "ability_score_increase": {
+        "dexterity": 2
+      },
+      "age": "Typically claim adulthood around 100, can live to be 750",
+      "size": "Medium",
+      "speed": 30,
+      "features": [
+        {
+          "name": "Darkvision",
+          "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light."
+        },
+        {
+          "name": "Keen Senses",
+          "description": "You have proficiency in the Perception skill."
+        }
+      ]
+    }
+  ]
+}
