@@ -31,7 +31,8 @@
       "name": "Elf",
       "description": "Elves are a magical people of otherworldly grace, living in the world but not entirely part of it.",
       "ability_score_increase": {
-        "dexterity": 2
+        "dexterity": 2,
+        "intelligence": 1
       },
       "age": "Typically claim adulthood around 100, can live to be 750",
       "size": "Medium",
