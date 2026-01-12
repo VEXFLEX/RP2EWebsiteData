@@ -1,0 +1,22 @@
+{
+  "weapons": [
+    {
+      "id": "longsword",
+      "name": "Longsword",
+      "type": "Longsword",
+      "damage": "1d8",
+      "damageType": "Slashing",
+      "properties": ["Versatile"],
+      "requiredProficiency": "MartialMelee"
+    },
+    {
+      "id": "greataxe",
+      "name": "Greataxe", 
+      "type": "Greataxe",
+      "damage": "1d12",
+      "damageType": "Slashing",
+      "properties": ["Heavy", "TwoHanded"],
+      "requiredProficiency": "MartialMelee"
+    }
+  ]
+}
