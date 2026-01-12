@@ -17,6 +17,15 @@
       "damageType": "Slashing",
       "properties": ["Heavy", "TwoHanded"],
       "requiredProficiency": "MartialMelee"
+    },
+    {
+      "id": "handaxe",
+      "name": "Handaxe", 
+      "type": "Handaxe",
+      "damage": "1d6",
+      "damageType": "Slashing",
+      "properties": ["Thrown", "Range"],
+      "requiredProficiency": "SimpleMelee"
     }
   ]
 }
