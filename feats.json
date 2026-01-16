@@ -32,7 +32,12 @@
       "effects": [
         {
           "type": "AdvantageAbility",
-          "value": 5,
+          "value": "Charisma (Deception)",
+          "condition": null
+        },
+        {
+          "type": "AdvantageAbility",
+          "value": "Charisma (Performance) ",
           "condition": null
         }
       ],
