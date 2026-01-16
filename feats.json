@@ -3,20 +3,20 @@
     {
       "feat_id": "alert",
       "name": "Alert",
-      "description": "Always on the lookout for danger, you gain the following benefits:\n• You gain a +5 bonus to initiative.\n• You can't be surprised while you are conscious.\n• Other creatures don't gain advantage on attack rolls against you as a result of being hidden from you.",
+      "description": "Always on the lookout for danger, you gain the following benefits:\nYou gain a +5 bonus to initiative.\nYou can't be surprised while you are conscious.\nOther creatures don't gain advantage on attack rolls against you as a result of being hidden from you.",
       "effects": [
         {
-          "type": "initiative_bonus",
+          "type": "InitiativeBonus",
           "value": 5,
           "condition": null
         },
         {
-          "type": "cannot_be_surprised",
+          "type": "CannotBeSurprised",
           "value": true,
           "condition": "conscious"
         },
         {
-          "type": "no_advantage_from_hidden",
+          "type": "NoAdvantageFromHidden",
           "value": true,
           "condition": null
         }
