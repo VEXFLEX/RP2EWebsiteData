@@ -31,7 +31,7 @@
       "prerequisite": [],
       "effects": [
         {
-          "type": "advantage_ability",
+          "type": "AdvantageAbility",
           "value": 5,
           "condition": null
         }
