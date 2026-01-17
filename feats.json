@@ -129,7 +129,7 @@
         }
       ],
       "prerequisites": [],
-      "tags": ["racial", "senses"]
+      "tags": ["racial", "senses", "dwarf", "elf"]
     },
     {
       "feat_id": "dwarf_toughness",
