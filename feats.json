@@ -47,18 +47,7 @@
       "feat_id": "human_versatility",
       "name": "Human Versatility",
       "description": "Humans are the most adaptable and ambitious people among the common races. They have widely varying tastes, morals, and customs in the many different lands where they have settled.\nAbility Score Increase: Your ability scores each increase by 1.\nAge: Humans reach adulthood in their late teens and live less than a century.\nSize: Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.\nSpeed: Your base walking speed is 30 feet.",
-      "effects": [
-        {
-          "type": "StatIncrease",
-          "value": "Strength:1,Dexterity:1,Constitution:1,Intelligence:1,Wisdom:1,Charisma:1",
-          "condition": null
-        },
-        {
-          "type": "Speed",
-          "value": "30",
-          "condition": null
-        }
-      ],
+      "effects": [],
       "prerequisites": [],
       "tags": ["racial", "human", "versatile"]
     },
@@ -69,7 +58,7 @@
       "effects": [
         {
           "type": "SkillProficiency",
-          "value": "choose_one",
+          "value": "1",
           "condition": null
         }
       ],
@@ -88,7 +77,7 @@
         },
         {
           "type": "Language",
-          "value": "choose_one",
+          "value": "1",
           "condition": null
         }
       ],
@@ -126,73 +115,21 @@
         }
       ],
       "prerequisites": ["elf_fey_ancestry"],
-      "tags": ["racial", "elf", "senses", "skill"]
+      "tags": ["racial", "elf", "skill"]
     },
     {
       "feat_id": "race_darkvision",
-      "name": "Elf Darkvision",
-      "description": "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "name": "Darkvision",
+      "description": "Accustomed dim light due to your upbringing, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
       "effects": [
         {
           "type": "Darkvision",
           "value": "60",
-          "condition": null
-        }
-      ],
-      "prerequisites": ["elf_fey_ancestry"],
-      "tags": ["racial", "elf", "senses"]
-    },
-    {
-      "feat_id": "dwarf_toughness",
-      "name": "Dwarven Toughness",
-      "description": "Dwarves are a hardy people, strong in body and spirit.\nAbility Score Increase: Your Constitution score increases by 2.\nAge: Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years.\nSize: Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.\nSpeed: Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor.",
-      "effects": [
-        {
-          "type": "Speed",
-          "value": "25",
-          "condition": null
-        },
-        {
-          "type": "NoSpeedReduction",
-          "value": "heavy_armor",
           "condition": null
         }
       ],
       "prerequisites": [],
-      "tags": ["racial", "dwarf", "tough", "resilient"]
-    },
-    {
-      "feat_id": "race_darkvision",
-      "name": "Dwarven Darkvision",
-      "description": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
-      "effects": [
-        {
-          "type": "Darkvision",
-          "value": "60",
-          "condition": null
-        }
-      ],
-      "prerequisites": ["dwarf_toughness"],
-      "tags": ["racial", "dwarf", "senses", "underground"]
-    },
-    {
-      "feat_id": "dwarf_resilience",
-      "name": "Dwarven Resilience",
-      "description": "You have advantage on saving throws against poison, and you have resistance against poison damage.",
-      "effects": [
-        {
-          "type": "AdvantageSavingThrow",
-          "value": "poison",
-          "condition": null
-        },
-        {
-          "type": "Resistance",
-          "value": "poison",
-          "condition": null
-        }
-      ],
-      "prerequisites": ["dwarf_toughness"],
-      "tags": ["racial", "dwarf", "resistance", "poison"]
+      "tags": ["racial", "senses"]
     },
     {
       "feat_id": "dwarf_toughness",
@@ -210,8 +147,8 @@
           "condition": null
         }
       ],
-      "prerequisites": ["hill_dwarf_ability"],
-      "tags": ["racial", "dwarf", "hill_dwarf", "hp", "toughness"]
+      "prerequisites": [],
+      "tags": ["racial", "dwarf", "hp"]
     }
   ]
 }
