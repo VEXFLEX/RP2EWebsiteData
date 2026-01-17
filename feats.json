@@ -101,16 +101,6 @@
       "description": "Your elf character has a variety of natural abilities, the result of thousands of years of elven refinement.\nAbility Score Increase: Your Dexterity score increases by 2.\nAge: Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.\nSize: Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.\nSpeed: Your base walking speed is 30 feet.",
       "effects": [
         {
-          "type": "StatIncrease",
-          "value": "Dexterity:2",
-          "condition": null
-        },
-        {
-          "type": "Speed",
-          "value": "30",
-          "condition": null
-        },
-        {
           "type": "Immunity",
           "value": "charmed",
           "condition": null
@@ -139,20 +129,6 @@
       "tags": ["racial", "elf", "senses", "skill"]
     },
     {
-      "feat_id": "elf_trance",
-      "name": "Trance",
-      "description": "Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.",
-      "effects": [
-        {
-          "type": "Trance",
-          "value": "true",
-          "condition": null
-        }
-      ],
-      "prerequisites": ["elf_fey_ancestry"],
-      "tags": ["racial", "elf", "rest"]
-    },
-    {
       "feat_id": "race_darkvision",
       "name": "Elf Darkvision",
       "description": "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
@@ -167,104 +143,10 @@
       "tags": ["racial", "elf", "senses"]
     },
     {
-      "feat_id": "elf_language",
-      "name": "Elven Languages",
-      "description": "You can speak, read, and write Common and Elvish.",
-      "effects": [
-        {
-          "type": "Language",
-          "value": "Common",
-          "condition": null
-        },
-        {
-          "type": "Language",
-          "value": "Elvish",
-          "condition": null
-        }
-      ],
-      "prerequisites": ["elf_fey_ancestry"],
-      "tags": ["racial", "elf", "language"]
-    },
-    {
-      "feat_id": "high_elf_ability",
-      "name": "High Elf Ability Score",
-      "description": "As a high elf, your Intelligence score increases by 1.",
-      "effects": [
-        {
-          "type": "StatIncrease",
-          "value": "Intelligence:1",
-          "condition": null
-        }
-      ],
-      "prerequisites": ["elf_fey_ancestry"],
-      "tags": ["racial", "elf", "high_elf", "subrace"]
-    },
-    {
-      "feat_id": "high_elf_cantrip",
-      "name": "High Elf Cantrip",
-      "description": "You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.",
-      "effects": [
-        {
-          "type": "Cantrip",
-          "value": "choose_wizard_one",
-          "condition": null
-        }
-      ],
-      "prerequisites": ["high_elf_ability"],
-      "tags": ["racial", "elf", "high_elf", "magic", "cantrip"]
-    },
-    {
-      "feat_id": "wood_elf_ability",
-      "name": "Wood Elf Ability Score",
-      "description": "As a wood elf, your Wisdom score increases by 1.",
-      "effects": [
-        {
-          "type": "StatIncrease",
-          "value": "Wisdom:1",
-          "condition": null
-        }
-      ],
-      "prerequisites": ["elf_fey_ancestry"],
-      "tags": ["racial", "elf", "wood_elf", "subrace"]
-    },
-    {
-      "feat_id": "wood_elf_fleet",
-      "name": "Wood Elf Fleet of Foot",
-      "description": "Your base walking speed increases to 35 feet.",
-      "effects": [
-        {
-          "type": "Speed",
-          "value": "35",
-          "condition": null
-        }
-      ],
-      "prerequisites": ["wood_elf_ability"],
-      "tags": ["racial", "elf", "wood_elf", "speed", "movement"]
-    },
-    {
-      "feat_id": "wood_elf_mask",
-      "name": "Wood Elf Mask of the Wild",
-      "description": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.",
-      "effects": [
-        {
-          "type": "HideInNaturalObscurement",
-          "value": "true",
-          "condition": null
-        }
-      ],
-      "prerequisites": ["wood_elf_ability"],
-      "tags": ["racial", "elf", "wood_elf", "stealth", "nature"]
-    },
-    {
       "feat_id": "dwarf_toughness",
       "name": "Dwarven Toughness",
       "description": "Dwarves are a hardy people, strong in body and spirit.\nAbility Score Increase: Your Constitution score increases by 2.\nAge: Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years.\nSize: Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.\nSpeed: Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor.",
       "effects": [
-        {
-          "type": "StatIncrease",
-          "value": "Constitution:2",
-          "condition": null
-        },
         {
           "type": "Speed",
           "value": "25",
@@ -313,98 +195,8 @@
       "tags": ["racial", "dwarf", "resistance", "poison"]
     },
     {
-      "feat_id": "dwarf_combat_training",
-      "name": "Dwarven Combat Training",
-      "description": "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.",
-      "effects": [
-        {
-          "type": "WeaponProficiency",
-          "value": "battleaxe",
-          "condition": null
-        },
-        {
-          "type": "WeaponProficiency",
-          "value": "handaxe",
-          "condition": null
-        },
-        {
-          "type": "WeaponProficiency",
-          "value": "light_hammer",
-          "condition": null
-        },
-        {
-          "type": "WeaponProficiency",
-          "value": "warhammer",
-          "condition": null
-        }
-      ],
-      "prerequisites": ["dwarf_toughness"],
-      "tags": ["racial", "dwarf", "weapon", "combat"]
-    },
-    {
-      "feat_id": "dwarf_tool_proficiency",
-      "name": "Dwarven Tool Proficiency",
-      "description": "You gain proficiency with the artisan's tools of your choice: smith's tools, brewer's supplies, or mason's tools.",
-      "effects": [
-        {
-          "type": "ToolProficiency",
-          "value": "choose_one_dwarven",
-          "condition": null
-        }
-      ],
-      "prerequisites": ["dwarf_toughness"],
-      "tags": ["racial", "dwarf", "tool", "crafting"]
-    },
-    {
-      "feat_id": "dwarf_stonecunning",
-      "name": "Stonecunning",
-      "description": "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.",
-      "effects": [
-        {
-          "type": "ExpertiseStonework",
-          "value": "true",
-          "condition": null
-        }
-      ],
-      "prerequisites": ["dwarf_toughness"],
-      "tags": ["racial", "dwarf", "knowledge", "stone"]
-    },
-    {
-      "feat_id": "dwarf_language",
-      "name": "Dwarven Languages",
-      "description": "You can speak, read, and write Common and Dwarvish.",
-      "effects": [
-        {
-          "type": "Language",
-          "value": "Common",
-          "condition": null
-        },
-        {
-          "type": "Language",
-          "value": "Dwarvish",
-          "condition": null
-        }
-      ],
-      "prerequisites": ["dwarf_toughness"],
-      "tags": ["racial", "dwarf", "language"]
-    },
-    {
-      "feat_id": "hill_dwarf_ability",
-      "name": "Hill Dwarf Ability Score",
-      "description": "As a hill dwarf, your Wisdom score increases by 1.",
-      "effects": [
-        {
-          "type": "StatIncrease",
-          "value": "Wisdom:1",
-          "condition": null
-        }
-      ],
-      "prerequisites": ["dwarf_toughness"],
-      "tags": ["racial", "dwarf", "hill_dwarf", "subrace"]
-    },
-    {
-      "feat_id": "hill_dwarf_toughness",
-      "name": "Hill Dwarf Toughness",
+      "feat_id": "dwarf_toughness",
+      "name": "Dwarf Toughness",
       "description": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.",
       "effects": [
         {
@@ -420,39 +212,6 @@
       ],
       "prerequisites": ["hill_dwarf_ability"],
       "tags": ["racial", "dwarf", "hill_dwarf", "hp", "toughness"]
-    },
-    {
-      "feat_id": "mountain_dwarf_ability",
-      "name": "Mountain Dwarf Ability Score",
-      "description": "As a mountain dwarf, your Strength score increases by 2.",
-      "effects": [
-        {
-          "type": "StatIncrease",
-          "value": "Strength:2",
-          "condition": null
-        }
-      ],
-      "prerequisites": ["dwarf_toughness"],
-      "tags": ["racial", "dwarf", "mountain_dwarf", "subrace"]
-    },
-    {
-      "feat_id": "mountain_dwarf_armor",
-      "name": "Mountain Dwarf Armor Training",
-      "description": "You have proficiency with light and medium armor.",
-      "effects": [
-        {
-          "type": "ArmorProficiency",
-          "value": "light",
-          "condition": null
-        },
-        {
-          "type": "ArmorProficiency",
-          "value": "medium",
-          "condition": null
-        }
-      ],
-      "prerequisites": ["mountain_dwarf_ability"],
-      "tags": ["racial", "dwarf", "mountain_dwarf", "armor", "defense"]
     }
   ]
 }
