@@ -7,17 +7,17 @@
       "effects": [
         {
           "type": "InitiativeBonus",
-          "value": 5,
+          "value": "5",
           "condition": null
         },
         {
           "type": "CannotBeSurprised",
-          "value": true,
+          "value": "true",
           "condition": "conscious"
         },
         {
           "type": "NoAdvantageFromHidden",
-          "value": true,
+          "value": "true",
           "condition": null
         }
       ],
@@ -50,19 +50,12 @@
       "effects": [
         {
           "type": "StatIncrease",
-          "value": {
-            "Strength": 1,
-            "Dexterity": 1,
-            "Constitution": 1,
-            "Intelligence": 1,
-            "Wisdom": 1,
-            "Charisma": 1
-          },
+          "value": "Strength:1,Dexterity:1,Constitution:1,Intelligence:1,Wisdom:1,Charisma:1",
           "condition": null
         },
         {
           "type": "Speed",
-          "value": 30,
+          "value": "30",
           "condition": null
         }
       ],
@@ -109,14 +102,12 @@
       "effects": [
         {
           "type": "StatIncrease",
-          "value": {
-            "Dexterity": 2
-          },
+          "value": "Dexterity:2",
           "condition": null
         },
         {
           "type": "Speed",
-          "value": 30,
+          "value": "30",
           "condition": null
         },
         {
@@ -154,7 +145,7 @@
       "effects": [
         {
           "type": "Trance",
-          "value": true,
+          "value": "true",
           "condition": null
         }
       ],
@@ -162,13 +153,13 @@
       "tags": ["racial", "elf", "rest"]
     },
     {
-      "feat_id": "elf_darkvision",
-      "name": "Darkvision",
+      "feat_id": "race_darkvision",
+      "name": "Elf Darkvision",
       "description": "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
       "effects": [
         {
           "type": "Darkvision",
-          "value": 60,
+          "value": "60",
           "condition": null
         }
       ],
@@ -201,9 +192,7 @@
       "effects": [
         {
           "type": "StatIncrease",
-          "value": {
-            "Intelligence": 1
-          },
+          "value": "Intelligence:1",
           "condition": null
         }
       ],
@@ -231,9 +220,7 @@
       "effects": [
         {
           "type": "StatIncrease",
-          "value": {
-            "Wisdom": 1
-          },
+          "value": "Wisdom:1",
           "condition": null
         }
       ],
@@ -247,7 +234,7 @@
       "effects": [
         {
           "type": "Speed",
-          "value": 35,
+          "value": "35",
           "condition": null
         }
       ],
@@ -261,7 +248,7 @@
       "effects": [
         {
           "type": "HideInNaturalObscurement",
-          "value": true,
+          "value": "true",
           "condition": null
         }
       ],
@@ -275,14 +262,12 @@
       "effects": [
         {
           "type": "StatIncrease",
-          "value": {
-            "Constitution": 2
-          },
+          "value": "Constitution:2",
           "condition": null
         },
         {
           "type": "Speed",
-          "value": 25,
+          "value": "25",
           "condition": null
         },
         {
@@ -295,13 +280,13 @@
       "tags": ["racial", "dwarf", "tough", "resilient"]
     },
     {
-      "feat_id": "dwarf_darkvision",
+      "feat_id": "race_darkvision",
       "name": "Dwarven Darkvision",
       "description": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
       "effects": [
         {
           "type": "Darkvision",
-          "value": 60,
+          "value": "60",
           "condition": null
         }
       ],
@@ -377,7 +362,7 @@
       "effects": [
         {
           "type": "ExpertiseStonework",
-          "value": true,
+          "value": "true",
           "condition": null
         }
       ],
@@ -410,9 +395,7 @@
       "effects": [
         {
           "type": "StatIncrease",
-          "value": {
-            "Wisdom": 1
-          },
+          "value": "Wisdom:1",
           "condition": null
         }
       ],
@@ -426,12 +409,12 @@
       "effects": [
         {
           "type": "HitPointBonus",
-          "value": 1,
+          "value": "1",
           "condition": null
         },
         {
           "type": "HitPointPerLevelBonus",
-          "value": 1,
+          "value": "1",
           "condition": null
         }
       ],
@@ -445,9 +428,7 @@
       "effects": [
         {
           "type": "StatIncrease",
-          "value": {
-            "Strength": 2
-          },
+          "value": "Strength:2",
           "condition": null
         }
       ],
