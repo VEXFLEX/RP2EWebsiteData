@@ -142,7 +142,7 @@
           "condition": null
         },
         {
-          "type": "HitPointPerLevelBonus",
+          "type": "HitPointBonus",
           "value": "1",
           "condition": null
         }
