@@ -71,8 +71,8 @@
           "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light."
         },
         {
-          "name": "Hardy",
-          "feat_id": "hardy",
+          "name": "Dwarf Toughness",
+          "feat_id": "dwarf_toughness",
           "description": "You gain 1 hp per level."
         }
       ]
