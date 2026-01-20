@@ -8,7 +8,7 @@
       "saving_throw_proficiencies": ["Strength", "Constitution"],
       "armor_proficiencies": ["All armor", "Shields"],
       "weapon_proficiencies": ["Simple weapons", "Martial weapons"],
-      "features": [
+      "class_eatures": [
         {
           "level": 1,
           "name": "Fighting Style",
