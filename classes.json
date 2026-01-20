@@ -7,7 +7,7 @@
       "primary_ability": ["Strength", "Dexterity"],
       "saving_throw_proficiencies": ["Strength", "Constitution"],
       "armor_proficiencies": ["All armor", "Shields"],
-      "weapon_proficiencies": ["SimpleMelee", "SimpleMelee"],
+      "weapon_proficiencies": ["SimpleMelee", "MartialMelee"],
       "class_features": [
         {
           "level": 1,
