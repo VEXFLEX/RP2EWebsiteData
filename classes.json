@@ -20,6 +20,48 @@
           "description": "You can push yourself beyond your normal limits for a moment."
         }
       ]
+    },
+    {
+      "id": "wizard",
+      "name": "Wizard",
+      "hit_dice": "d6",
+      "primary_ability": ["Intelligence"],
+      "saving_throw_proficiencies": ["Intelligence", "Wisdom"],
+      "armor_proficiencies": [],
+      "weapon_proficiencies": ["Daggers", "Darts", "Slings", "Quarterstaffs", "LightCrossbows"],
+      "class_features": [
+        {
+          "level": 1,
+          "name": "Spellcasting",
+          "description": "You can cast wizard spells using Intelligence as your spellcasting ability."
+        },
+        {
+          "level": 2,
+          "name": "Arcane Tradition",
+          "description": "You choose an arcane tradition, shaping your practice of magic."
+        }
+      ]
+    },
+    {
+      "id": "rogue",
+      "name": "Rogue",
+      "hit_dice": "d8",
+      "primary_ability": ["Dexterity"],
+      "saving_throw_proficiencies": ["Dexterity", "Intelligence"],
+      "armor_proficiencies": ["Light armor"],
+      "weapon_proficiencies": ["SimpleMelee", "MartialMelee", "HandCrossbows", "Longswords", "Rapiers", "Shortswords"],
+      "class_features": [
+        {
+          "level": 1,
+          "name": "Sneak Attack",
+          "description": "You know how to strike subtly and exploit a foe's distraction."
+        },
+        {
+          "level": 2,
+          "name": "Cunning Action",
+          "description": "Your quick thinking and agility allow you to move and act quickly."
+        }
+      ]
     }
   ]
 }
