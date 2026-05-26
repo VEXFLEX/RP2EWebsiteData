@@ -8,7 +8,12 @@
     {
       "item_id": "arrow",
       "name": "Arrows",
-      "description": "Ammunition used for archery, can be used for melee, not recommended"
+      "description": "Arrows are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition."
+    },
+    {
+      "item_id": "healing_potion_1",
+      "name": "Healing Potion (Common)",
+      "description": "You regain hit points when you drink this potion. The potion's red liquid glimmers when agitated."
     }
   ]
 }
