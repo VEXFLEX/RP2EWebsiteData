@@ -14,6 +14,16 @@
       "item_id": "healing_potion_1",
       "name": "Healing Potion (Common)",
       "description": "You regain hit points when you drink this potion. The potion's red liquid glimmers when agitated."
+    },
+    {
+      "item_id": "amulet_of_health",
+      "name": "Amulet Of Health",
+      "description": "Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution score is already 19 or higher."
+    },
+    {
+      "item_id": "braces_of_defence",
+      "name": "Braces Of Defence",
+      "description": "While wearing these bracers, you gain a +2 bonus to AC if you are wearing no armor and using no shield."
     }
   ]
 }
