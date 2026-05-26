@@ -1,0 +1,14 @@
+{
+  "items":[
+    {
+      "item_id": "gold",
+      "name": "Gold",
+      "description": "Most commonly used form of currency"
+    },
+    {
+      "item_id": "arrow",
+      "name": "Arrows",
+      "description": "Ammunition used for archery, can be used for melee, not recommended"
+    }
+  ]
+}
