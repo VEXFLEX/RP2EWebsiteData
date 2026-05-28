@@ -19,12 +19,18 @@
       "item_id": "amulet_of_health",
       "name": "Amulet Of Health",
       "description": "Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution score is already 19 or higher.",
-      "tags":["amulet"]
+      "tags":["equipment","amulet"]
     },
     {
       "item_id": "braces_of_defence",
       "name": "Braces Of Defence",
       "description": "While wearing these bracers, you gain a +2 bonus to AC if you are wearing no armor and using no shield."
+    },
+    {
+      "item_id": "longsword",
+      "name": "Longsword",
+      "description": "A versatile melee weapon",
+      "tags":["weapon"]
     }
   ]
 }
