@@ -50,6 +50,12 @@
       "name": "Handaxe",
       "description": "A melee weapon that can be thrown, not recommended for juggling",
       "tags":["weapon"]
+    },
+    {
+      "item_id": "fullbodydummysuit",
+      "name": "Full Body Dummy Suit",
+      "description": "A testing equipment, useless",
+      "tags":["equipment", "head", "face", "neck", "shoulder", "back", "chest", "waist","wrists", "hands", "legs", "feet", "main_hand", "off_hand","finger_1", "finger_2", "finger_3", "finger_4", "finger_5","finger_6", "finger_7", "finger_8"]
     }
   ]
 }
