@@ -162,7 +162,35 @@
         }
       ],
       "prerequisites": [],
-      "tags": ["racial", "senses", "dwarf", "elf"]
+      "tags": ["equipment"]
+    },
+    {
+      "feat_id": "belt_of_giant_strength_1",
+      "name": "Belt Of Hill Giant Strength Effect",
+      "description": "While wearing the belt, your strength is set to a modifier of 5.",
+      "effects": [
+        {
+          "type": "StatIncrease",
+          "value": "0:5",
+          "condition": "set"
+        }
+      ],
+      "prerequisites": [],
+      "tags": ["equipment"]
+    },
+    {
+      "feat_id": "charisma_hat",
+      "name": "Birthright",
+      "description": "While wearing the hat, it increases your charisma modifier by 1.",
+      "effects": [
+        {
+          "type": "StatIncrease",
+          "value": "5:1",
+          "condition": "increase"
+        }
+      ],
+      "prerequisites": [],
+      "tags": ["equipment"]
     }
   ]
 }
