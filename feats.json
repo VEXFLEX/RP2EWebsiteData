@@ -149,6 +149,20 @@
       ],
       "prerequisites": [],
       "tags": ["racial", "dwarf", "hp"]
+    },
+    {
+      "feat_id": "amulet_of_health",
+      "name": "Amulet Of Health Effect",
+      "description": "While wearing the amulet, your constitution is set to a modifier of 4.",
+      "effects": [
+        {
+          "type": "StatIncrease",
+          "value": "2:4",
+          "condition": "set"
+        }
+      ],
+      "prerequisites": [],
+      "tags": ["racial", "senses", "dwarf", "elf"]
     }
   ]
 }
