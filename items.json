@@ -22,6 +22,12 @@
       "tags":["equipment","amulet"]
     },
     {
+      "item_id": "belt_of_giant_strength_1",
+      "name": "Belt Of Hill Giant Strength",
+      "description": "Your Strength Modifier is 5 while you wear this belt. It has no effect on you if your Strength Modifier is already 5 or higher.",
+      "tags":["equipment","waist"]
+    },
+    {
       "item_id": "braces_of_defence",
       "name": "Braces Of Defence",
       "description": "While wearing these bracers, you gain a +2 bonus to AC if you are wearing no armor and using no shield.",
