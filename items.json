@@ -28,6 +28,12 @@
       "tags":["equipment","waist"]
     },
     {
+      "item_id": "charisma_hat",
+      "name": "Birthright",
+      "description": "While wearing the hat, it increases your charisma modifier by 1.",
+      "tags":["equipment","head"]
+    },
+    {
       "item_id": "braces_of_defence",
       "name": "Braces Of Defence",
       "description": "While wearing these bracers, you gain a +2 bonus to AC if you are wearing no armor and using no shield.",
