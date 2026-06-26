@@ -3,63 +3,128 @@
     {
       "id": "fighter",
       "name": "Fighter",
-      "hit_dice": "d10",
+      "hit_dice": "10",
       "primary_ability": ["Strength", "Dexterity"],
       "saving_throw_proficiencies": ["Strength", "Constitution"],
       "armor_proficiencies": ["All armor", "Shields"],
       "weapon_proficiencies": ["SimpleMelee", "MartialMelee"],
       "class_features": [
         {
-          "level": 1,
+          "feat_id": "Fighter_FS_01",
           "name": "Fighting Style",
-          "description": "You adopt a particular style of fighting as your specialty."
+          "description": "You adopt a particular style of fighting as your specialty.",
+          "effects": [
+            {
+              "type": "FightingStyle",
+              "value": "fighter",
+              "condition": ""
+            }
+          ],
+          "prerequisites": [],
+          "tags": ["fighter", "fightingstyle"],
+          "level": 1
         },
         {
-          "level": 2,
+          "feat_id": "Fighter_AS_02",
           "name": "Action Surge",
-          "description": "You can push yourself beyond your normal limits for a moment."
+          "description": "You can push yourself beyond your normal limits for a moment.",
+          "effects": [
+            {
+              "type": "ExtraAttack",
+              "value": "attack:1",
+              "condition": "ShortRest:1"
+            }
+          ],
+          "prerequisites": [],
+          "tags": ["fighter", "actionsurge", "combat"],
+          "level": 2
         }
       ]
     },
     {
       "id": "wizard",
       "name": "Wizard",
-      "hit_dice": "d6",
+      "hit_dice": "6",
       "primary_ability": ["Intelligence"],
       "saving_throw_proficiencies": ["Intelligence", "Wisdom"],
       "armor_proficiencies": [],
       "weapon_proficiencies": ["Daggers", "Darts", "Slings", "Quarterstaffs", "LightCrossbows"],
       "class_features": [
         {
-          "level": 1,
+          "feat_id": "Wizard_SC_01",
           "name": "Spellcasting",
-          "description": "You can cast wizard spells using Intelligence as your spellcasting ability."
+          "description": "You can cast wizard spells using Intelligence as your spellcasting ability.",
+          "effects": [
+            {
+              "type": "SpellSlotIncrease",
+              "value": "F:1",
+              "condition": ""
+            }
+          ],
+          "prerequisites": [],
+          "tags": ["wizard", "spellcasting"],
+          "level": 1
         },
         {
-          "level": 2,
+          "feat_id": "Wizard_AT_02",
           "name": "Arcane Tradition",
-          "description": "You choose an arcane tradition, shaping your practice of magic."
+          "description": "You choose an arcane tradition, shaping your practice of magic.",
+          "effects": [
+            {
+              "type": "SubclassChoice",
+              "value": "abjuration:conjuration:enchantment",
+              "condition": ""
+            },
+            {
+              "type": "SpellSlotIncrease",
+              "value": "F:1",
+              "condition": ""
+            }
+          ],
+          "prerequisites": [],
+          "tags": ["wizard", "subclass"],
+          "level": 1
         }
       ]
     },
     {
       "id": "rogue",
       "name": "Rogue",
-      "hit_dice": "d8",
+      "hit_dice": "8",
       "primary_ability": ["Dexterity"],
       "saving_throw_proficiencies": ["Dexterity", "Intelligence"],
       "armor_proficiencies": ["Light armor"],
       "weapon_proficiencies": ["SimpleMelee", "MartialMelee", "HandCrossbows", "Longswords", "Rapiers", "Shortswords"],
       "class_features": [
         {
-          "level": 1,
+          "feat_id": "Rogue_SA_01",
           "name": "Sneak Attack",
-          "description": "You know how to strike subtly and exploit a foe's distraction."
+          "description": "You know how to strike subtly and exploit a foe's distraction.",
+          "effects": [
+            {
+              "type": "DamageBonus",
+              "value": "1d6",
+              "condition": "advantage/sneakally:finesse/ranged"
+            }
+          ],
+          "prerequisites": [],
+          "tags": ["rogue", "sneakattack","combat"],
+          "level": 1
         },
         {
-          "level": 2,
+          "feat_id": "Rogue_CA_02",
           "name": "Cunning Action",
-          "description": "Your quick thinking and agility allow you to move and act quickly."
+          "description": "Your quick thinking and agility allow you to move and act quickly.",
+          "effects": [
+            {
+              "type": "ExtraAction",
+              "value": "hide/disengage/dash:1",
+              "condition": "move:1"
+            }
+          ],
+          "prerequisites": [],
+          "tags": ["rogue", "cunningaction","combat"],
+          "level": 2
         }
       ]
     }
