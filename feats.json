@@ -165,7 +165,7 @@
       "tags": ["equipment"]
     },
     {
-      "feat_id": "belt_of_giant_strength_1",
+      "feat_id": "belt_of_giant_strength_01",
       "name": "Belt Of Hill Giant Strength Effect",
       "description": "While wearing the belt, your strength is set to a modifier of 5.",
       "effects": [
