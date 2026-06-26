@@ -191,6 +191,30 @@
       ],
       "prerequisites": [],
       "tags": ["equipment"]
+    },
+    {
+      "feat_id": "longsword_01",
+      "name": "Flame Tongue",
+      "description": "Use bonus action to speak this magic sword's command word, causing flames to erupt from the blade. Flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. Dealing an extra 2d6 fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the sword.",
+      "effects": [
+        {
+          "type": "ConditionApplied",
+          "value": "aflame",
+          "condition": "bonus action"
+        },
+        {
+          "type": "ShedLight",
+          "value": "40:40:0",
+          "condition": "aflame"
+        },
+        {
+          "type": "DamageBonus",
+          "value": "2d6:fire",
+          "condition": "aflame"
+        }
+      ],
+      "prerequisites": [],
+      "tags": ["weapon"]
     }
   ]
 }
