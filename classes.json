@@ -12,11 +12,11 @@
         {
           "feat_id": "Fighter_FS_01",
           "name": "Fighting Style",
-          "description": "You adopt a particular style of fighting as your specialty.",
+          "description": "You adopt a particular style of fighting as your specialty.\nArchery: You gain a +2 bonus to attack rolls you make with ranged weapons.\nDefense: While you are wearing armor, you gain a +1 bonus to AC.\nDueling: When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.\nGreat Weapon Fighting: When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.\nProtection: When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.\nTwo-Weapon Fighting: When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.",
           "effects": [
             {
               "type": "FightingStyle",
-              "value": "fighter",
+              "value": "Archery/Defence/Dueling/Great Weapon Fighting/Protection/Two-Weapon Fighting",
               "condition": ""
             }
           ],
@@ -27,7 +27,7 @@
         {
           "feat_id": "Fighter_AS_02",
           "name": "Action Surge",
-          "description": "You can push yourself beyond your normal limits for a moment.",
+          "description": "You can push yourself beyond your normal limits for a moment. You gain an extra action that can be used once per short rest",
           "effects": [
             {
               "type": "ExtraAttack",
@@ -68,7 +68,7 @@
         {
           "feat_id": "Wizard_AT_02",
           "name": "Arcane Tradition",
-          "description": "You choose an arcane tradition, shaping your practice of magic.",
+          "description": "You choose an arcane tradition, shaping your practice of magic. This will be your subclass that stays with you throughout",
           "effects": [
             {
               "type": "SubclassChoice",
@@ -99,7 +99,7 @@
         {
           "feat_id": "Rogue_SA_01",
           "name": "Sneak Attack",
-          "description": "You know how to strike subtly and exploit a foe's distraction.",
+          "description": "You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon. You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll."
           "effects": [
             {
               "type": "DamageBonus",
@@ -114,7 +114,7 @@
         {
           "feat_id": "Rogue_CA_02",
           "name": "Cunning Action",
-          "description": "Your quick thinking and agility allow you to move and act quickly.",
+          "description": "Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.",
           "effects": [
             {
               "type": "ExtraAction",
