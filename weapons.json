@@ -1,6 +1,159 @@
 {
   "weapons": [
     {
+      "id": "club",
+      "name": "Club",
+      "type": "Club",
+      "damage": "1d4",
+      "damageType": "Bludgeoning",
+      "properties": ["Light"],
+      "requiredProficiency": "SimpleMelee"
+    },
+    {
+      "id": "dagger",
+      "name": "Dagger",
+      "type": "Dagger",
+      "damage": "1d4",
+      "damageType": "Piercing",
+      "properties": ["Finesse", "Light", "Thrown", "Range"],
+      "requiredProficiency": "SimpleMelee"
+    },
+    {
+      "id": "greatclub",
+      "name": "Greatclub",
+      "type": "Greatclub",
+      "damage": "1d8",
+      "damageType": "Bludgeoning",
+      "properties": ["TwoHanded"],
+      "requiredProficiency": "SimpleMelee"
+    },
+    {
+      "id": "handaxe",
+      "name": "Handaxe",
+      "type": "Handaxe",
+      "damage": "1d6",
+      "damageType": "Slashing",
+      "properties": ["Light", "Thrown", "Range"],
+      "requiredProficiency": "SimpleMelee"
+    },
+    {
+      "id": "javelin",
+      "name": "Javelin",
+      "type": "Javelin",
+      "damage": "1d6",
+      "damageType": "Piercing",
+      "properties": ["Thrown", "Range"],
+      "requiredProficiency": "SimpleMelee"
+    },
+    {
+      "id": "light hammer",
+      "name": "Light Hammer",
+      "type": "LightHammer",
+      "damage": "1d4",
+      "damageType": "Bludgeoning",
+      "properties": ["Light", "Thrown", "Range"],
+      "requiredProficiency": "SimpleMelee"
+    },
+    {
+      "id": "mace",
+      "name": "Mace",
+      "type": "Mace",
+      "damage": "1d6",
+      "damageType": "Bludgeoning",
+      "properties": [],
+      "requiredProficiency": "SimpleMelee"
+    },
+    {
+      "id": "quarterstaff",
+      "name": "Quarterstaff",
+      "type": "Quarterstaff",
+      "damage": "1d6",
+      "damageType": "Bludgeoning",
+      "properties": ["Versatile"],
+      "requiredProficiency": "SimpleMelee"
+    },
+    {
+      "id": "sickle",
+      "name": "Sickle",
+      "type": "Sickle",
+      "damage": "1d4",
+      "damageType": "Slashing",
+      "properties": ["Light"],
+      "requiredProficiency": "SimpleMelee"
+    },
+    {
+      "id": "spear",
+      "name": "Spear",
+      "type": "Spear",
+      "damage": "1d6",
+      "damageType": "Piercing",
+      "properties": ["Thrown", "Range", "Versatile"],
+      "requiredProficiency": "SimpleMelee"
+    },
+    {
+      "id": "battleaxe",
+      "name": "Battleaxe",
+      "type": "Battleaxe",
+      "damage": "1d8",
+      "damageType": "Slashing",
+      "properties": ["Versatile"],
+      "requiredProficiency": "MartialMelee"
+    },
+    {
+      "id": "flail",
+      "name": "Flail",
+      "type": "Flail",
+      "damage": "1d8",
+      "damageType": "Bludgeoning",
+      "properties": [],
+      "requiredProficiency": "MartialMelee"
+    },
+    {
+      "id": "glaive",
+      "name": "Glaive",
+      "type": "Glaive",
+      "damage": "1d10",
+      "damageType": "Slashing",
+      "properties": ["Heavy", "Reach", "TwoHanded"],
+      "requiredProficiency": "MartialMelee"
+    },
+    {
+      "id": "greataxe",
+      "name": "Greataxe",
+      "type": "Greataxe",
+      "damage": "1d12",
+      "damageType": "Slashing",
+      "properties": ["Heavy", "TwoHanded"],
+      "requiredProficiency": "MartialMelee"
+    },
+    {
+      "id": "greatsword",
+      "name": "Greatsword",
+      "type": "Greatsword",
+      "damage": "2d6",
+      "damageType": "Slashing",
+      "properties": ["Heavy", "TwoHanded"],
+      "requiredProficiency": "MartialMelee"
+    },
+    {
+      "id": "halberd",
+      "name": "Halberd",
+      "type": "Halberd",
+      "damage": "1d10",
+      "damageType": "Slashing",
+      "properties": ["Heavy", "Reach", "TwoHanded"],
+      "requiredProficiency": "MartialMelee"
+    },
+    {
+      "id": "lance",
+      "name": "Lance",
+      "type": "Lance",
+      "damage": "1d12",
+      "damageType": "Piercing",
+      "properties": ["Reach", "Special"],
+      "requiredProficiency": "MartialMelee"
+    },
+    {
       "id": "longsword",
       "name": "Longsword",
       "type": "Longsword",
@@ -10,22 +163,175 @@
       "requiredProficiency": "MartialMelee"
     },
     {
-      "id": "greataxe",
-      "name": "Greataxe", 
-      "type": "Greataxe",
-      "damage": "1d12",
-      "damageType": "Slashing",
+      "id": "maul",
+      "name": "Maul",
+      "type": "Maul",
+      "damage": "2d6",
+      "damageType": "Bludgeoning",
       "properties": ["Heavy", "TwoHanded"],
       "requiredProficiency": "MartialMelee"
     },
     {
-      "id": "handaxe",
-      "name": "Handaxe", 
-      "type": "Handaxe",
+      "id": "morningstar",
+      "name": "Morningstar",
+      "type": "Morningstar",
+      "damage": "1d8",
+      "damageType": "Piercing",
+      "properties": [],
+      "requiredProficiency": "MartialMelee"
+    },
+    {
+      "id": "pike",
+      "name": "Pike",
+      "type": "Pike",
+      "damage": "1d10",
+      "damageType": "Piercing",
+      "properties": ["Heavy", "Reach", "TwoHanded"],
+      "requiredProficiency": "MartialMelee"
+    },
+    {
+      "id": "rapier",
+      "name": "Rapier",
+      "type": "Rapier",
+      "damage": "1d8",
+      "damageType": "Piercing",
+      "properties": ["Finesse"],
+      "requiredProficiency": "MartialMelee"
+    },
+    {
+      "id": "scimitar",
+      "name": "Scimitar",
+      "type": "Scimitar",
       "damage": "1d6",
       "damageType": "Slashing",
-      "properties": ["Thrown", "Range"],
-      "requiredProficiency": "SimpleMelee"
+      "properties": ["Finesse", "Light"],
+      "requiredProficiency": "MartialMelee"
+    },
+    {
+      "id": "shortsword",
+      "name": "Shortsword",
+      "type": "Shortsword",
+      "damage": "1d6",
+      "damageType": "Piercing",
+      "properties": ["Finesse", "Light"],
+      "requiredProficiency": "MartialMelee"
+    },
+    {
+      "id": "trident",
+      "name": "Trident",
+      "type": "Trident",
+      "damage": "1d6",
+      "damageType": "Piercing",
+      "properties": ["Thrown", "Range", "Versatile"],
+      "requiredProficiency": "MartialMelee"
+    },
+    {
+      "id": "war pick",
+      "name": "War Pick",
+      "type": "WarPick",
+      "damage": "1d8",
+      "damageType": "Piercing",
+      "properties": [],
+      "requiredProficiency": "MartialMelee"
+    },
+    {
+      "id": "warhammer",
+      "name": "Warhammer",
+      "type": "Warhammer",
+      "damage": "1d8",
+      "damageType": "Bludgeoning",
+      "properties": ["Versatile"],
+      "requiredProficiency": "MartialMelee"
+    },
+    {
+      "id": "whip",
+      "name": "Whip",
+      "type": "Whip",
+      "damage": "1d4",
+      "damageType": "Slashing",
+      "properties": ["Finesse", "Reach"],
+      "requiredProficiency": "MartialMelee"
+    },
+    {
+      "id": "light crossbow",
+      "name": "Light Crossbow",
+      "type": "LightCrossbow",
+      "damage": "1d8",
+      "damageType": "Piercing",
+      "properties": ["Ammunition", "Loading", "Range", "TwoHanded"],
+      "requiredProficiency": "SimpleRanged"
+    },
+    {
+      "id": "dart",
+      "name": "Dart",
+      "type": "Dart",
+      "damage": "1d4",
+      "damageType": "Piercing",
+      "properties": ["Finesse", "Thrown", "Range"],
+      "requiredProficiency": "SimpleRanged"
+    },
+    {
+      "id": "shortbow",
+      "name": "Shortbow",
+      "type": "Shortbow",
+      "damage": "1d6",
+      "damageType": "Piercing",
+      "properties": ["Ammunition", "Range", "TwoHanded"],
+      "requiredProficiency": "SimpleRanged"
+    },
+    {
+      "id": "sling",
+      "name": "Sling",
+      "type": "Sling",
+      "damage": "1d4",
+      "damageType": "Bludgeoning",
+      "properties": ["Ammunition", "Range"],
+      "requiredProficiency": "SimpleRanged"
+    },
+    {
+      "id": "blowgun",
+      "name": "Blowgun",
+      "type": "Blowgun",
+      "damage": "1",
+      "damageType": "Piercing",
+      "properties": ["Ammunition", "Loading", "Range"],
+      "requiredProficiency": "MartialRanged"
+    },
+    {
+      "id": "hand crossbow",
+      "name": "Hand Crossbow",
+      "type": "HandCrossbow",
+      "damage": "1d6",
+      "damageType": "Piercing",
+      "properties": ["Ammunition", "Light", "Loading", "Range"],
+      "requiredProficiency": "MartialRanged"
+    },
+    {
+      "id": "heavy crossbow",
+      "name": "Heavy Crossbow",
+      "type": "HeavyCrossbow",
+      "damage": "1d10",
+      "damageType": "Piercing",
+      "properties": ["Ammunition", "Heavy", "Loading", "Range", "TwoHanded"],
+      "requiredProficiency": "MartialRanged"
+    },
+    {
+      "id": "longbow",
+      "name": "Longbow",
+      "type": "Longbow",
+      "damage": "1d8",
+      "damageType": "Piercing",
+      "properties": ["Ammunition", "Heavy", "Range", "TwoHanded"],
+      "requiredProficiency": "MartialRanged"
+    },
+    {
+      "id": "net",
+      "name": "Net",
+      "type": "Net",
+      "damage": null,
+      "damageType": null,
+      "properties": ["Special", "Thrown", "Range"],
+      "requiredProficiency": "MartialRanged"
     }
   ]
 }
