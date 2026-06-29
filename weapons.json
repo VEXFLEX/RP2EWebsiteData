@@ -328,8 +328,8 @@
       "id": "net",
       "name": "Net",
       "type": "Net",
-      "damage": null,
-      "damageType": null,
+      "damage": 0,
+      "damageType": 0,
       "properties": ["Special", "Thrown", "Range"],
       "requiredProficiency": "MartialRanged"
     }
