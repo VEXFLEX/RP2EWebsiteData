@@ -82,8 +82,23 @@
             }
           ],
           "prerequisites": [],
-          "tags": ["wizard", "subclass"],
+          "tags": ["wizard", "subclass", "spellcasting"],
           "level": 2
+        },
+        {
+          "feat_id": "Wizard_SI_03",
+          "name": "Spell Slot Increase",
+          "description": "Your known spell slots increase",
+          "effects": [
+            {
+              "type": "SpellSlotIncrease",
+              "value": "F:1",
+              "condition": ""
+            }
+          ],
+          "prerequisites": [],
+          "tags": ["wizard", "spellcasting"],
+          "level": 3
         }
       ]
     },
