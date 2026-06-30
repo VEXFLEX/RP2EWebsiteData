@@ -21,7 +21,7 @@
             }
           ],
           "prerequisites": ["wizard:2"],
-          "tags": ["wizard", "arcaneward", "combat", "abjuration"],
+          "tags": ["wizard", "subclass", "arcaneward", "combat", "abjuration"],
           "level": 2
         }
       ]
