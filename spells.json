@@ -12,7 +12,7 @@
       "spelleffects": [
         {
           "createobject": null,
-          "createsize": "",
+          "createsize": null,
           "durationType": null,
           "durationUnit": null,
           "durationValue": 1,
