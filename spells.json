@@ -11,21 +11,21 @@
       "school": "evocation",
       "spelleffects": [
         {
-          "createobject": "",
+          "createobject": null,
           "createsize": "",
-          "durationType": "",
-          "durationUnit": "",
+          "durationType": null,
+          "durationUnit": null,
           "durationValue": 1,
           "effectDuration": -1,
           "outcomesbysuccess": [],
           "repeatsave": false,
           "requiressave": false,
-          "savedc": "",
+          "savedc": null,
           "savetoend": false,
           "spelltype": "damage",
           "subtype": "fire",
-          "summoncr": "",
-          "summoncreature": "",
+          "summoncr": null,
+          "summoncreature": null,
           "triggers": [],
           "value": "1d10"
         }
