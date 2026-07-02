@@ -99,16 +99,6 @@
                 }
               ],
               "level": "FuckYeah"
-            },
-            {
-              "effects": [
-                {
-                  "condition": null,
-                  "type": "TakeDamageAsStated",
-                  "value": "0.5f"
-                }
-              ],
-              "level": "FuckKing"
             }
           ],
           "repeatsave": true,
