@@ -92,7 +92,7 @@
           "effects": [
             {
               "type": "SpellSlotIncrease",
-              "value": "F:1",
+              "value": "H:2",
               "condition": ""
             }
           ],
