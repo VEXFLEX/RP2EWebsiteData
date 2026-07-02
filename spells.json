@@ -1,50 +1,143 @@
 {
-  "spells":[
+  "spells": [
     {
-      "id":"firebolt",
-      "name":"Firebolt",
-      "combination":"F",
-      "level":0,
-      "range":"120ft",
-      "aoe":{},
-      "tohittype":
-      {
-        "type":"rangedspell",
-        "ability":"spellcasting",
-        "weapondelivery":false,
-        "baseattacks":1
-      },
-      "school":"evocation",
-      "spelleffects":[
+      "aoe": {},
+      "combination": "F",
+      "id": "firebolt",
+      "level": 0,
+      "name": "Firebolt",
+      "range": "120ft",
+      "requiresconcentration": false,
+      "school": "evocation",
+      "spelleffects": [
         {
-          "spelltype":"damage",
-          "value":"1d10",
-          "subtype":"fire",
-          "requiressave":false,
-          "savedc":"",
-          "triggers":[],
-          "effectDuration":-1,
-          "repeatsave":false,
-          "savetoend":false,
-          "outcomesbysuccess":[],
-          "summoncreature":"",
-          "summoncr":"",
-          "createobject":"",
-          "createsize":"",
-          "durationType":"",
-          "durationValue":1,
-          "durationUnit":"",
+          "createobject": "",
+          "createsize": "",
+          "durationType": "",
+          "durationUnit": "",
+          "durationValue": 1,
+          "effectDuration": -1,
+          "outcomesbysuccess": [],
+          "repeatsave": false,
+          "requiressave": false,
+          "savedc": "",
+          "savetoend": false,
+          "spelltype": "damage",
+          "subtype": "fire",
+          "summoncr": "",
+          "summoncreature": "",
+          "triggers": [],
+          "value": "1d10"
         }
       ],
-      "requiresconcentration":false,
-      "target":
-      {
-        "type":"single",
-        "count":1,
-        "cantargetself":false,
-        "requiressight":true,
-        "creaturetyperestriction":"none",
-        "hitpointlimit":"none"
+      "target": {
+        "cantargetself": false,
+        "count": 1,
+        "creaturetyperestriction": "none",
+        "hitpointlimit": "none",
+        "requiressight": true,
+        "type": "single"
+      },
+      "tohittype": {
+        "ability": "spellcasting",
+        "baseattacks": 1,
+        "type": "rangedspell",
+        "weapondelivery": false
+      }
+    },
+    {
+      "aoe": {
+        "height": 5,
+        "length": 5,
+        "origin": "point",
+        "radius": 0,
+        "type": "cube",
+        "width": 5
+      },
+      "combination": "F",
+      "id": "createbonfire",
+      "level": 0,
+      "name": "Create Bonfire",
+      "range": "60ft",
+      "requiresconcentration": true,
+      "school": "conjuration",
+      "spelleffects": [
+        {
+          "createobject": "create bondfire",
+          "createsize": "5ft cube",
+          "durationType": "timed",
+          "durationUnit": "minute",
+          "durationValue": 1,
+          "effectDuration": -1,
+          "outcomesbysuccess": [
+            {
+              "effects": [
+                {
+                  "condition": null,
+                  "type": "TakeDamageAsStated",
+                  "value": "1f"
+                }
+              ],
+              "level": "Fucked"
+            },
+            {
+              "effects": [
+                {
+                  "condition": null,
+                  "type": "TakeDamageAsStated",
+                  "value": "1f"
+                }
+              ],
+              "level": "FuckUp"
+            },
+            {
+              "effects": [
+                {
+                  "condition": null,
+                  "type": "TakeDamageAsStated",
+                  "value": "0.5f"
+                }
+              ],
+              "level": "FuckYeah"
+            },
+            {
+              "effects": [
+                {
+                  "condition": null,
+                  "type": "TakeDamageAsStated",
+                  "value": "0.5f"
+                }
+              ],
+              "level": "FuckKing"
+            }
+          ],
+          "repeatsave": true,
+          "requiressave": true,
+          "savedc": "playerdc:dex",
+          "savetoend": false,
+          "spelltype": "damage",
+          "subtype": "fire",
+          "summoncr": null,
+          "summoncreature": null,
+          "triggers": [
+            "onenter",
+            "onstartturn"
+          ],
+          "value": "1d8"
+        }
+      ],
+      "target": {
+        "cantargetself": false,
+        "count": 0,
+        "creaturetyperestriction": "none",
+        "requiressight": true,
+        "type": "point"
+      },
+      "tohittype": {
+        "ability": null,
+        "baseattacks": 0,
+        "type": "none",
+        "weapondelivery": false
       }
     }
   ]
