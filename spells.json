@@ -196,7 +196,7 @@
         "cantargetself": false,
         "count": 1,
         "creaturetyperestriction": null,
-        "hitpointlimit": "1-5lb",
+        "hitpointlimit": "400g to 2.5kg of weight",
         "requiressight": true,
         "type": "item"
       },
