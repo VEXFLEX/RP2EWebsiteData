@@ -160,40 +160,24 @@
           "effectDuration": -1,
           "outcomesbysuccess": [
             {
-              "effects": [
-                {
-                  "type": "none",
-                  "value": "no damage"
-                }
-              ],
-              "level": "FuckYeah"
-            },
-            {
-              "effects": [
-                {
-                  "type": "none",
-                  "value": "no damage"
-                }
-              ],
-              "level": "FuckUp"
-            },
-            {
-              "effects": [
-                {
-                  "type": "damage",
-                  "value": "TakeDamageAsStated:1"
-                }
-              ],
               "level": "Fucked"
-            },
-            {
               "effects": [
                 {
-                  "type": "damage",
-                  "value": "TakeDamageAsStated:1"
+                  "type": "TakeDamageAsStated",
+                  "condition": null,
+                  "value": "1"
                 }
               ],
+            },
+            {
               "level": "FuckKing"
+              "condition": null,
+              "effects": [
+                {
+                  "type": "TakeDamageAsStated",
+                  "value": "1"
+                }
+              ],
             }
           ],
           "repeatsave": false,
