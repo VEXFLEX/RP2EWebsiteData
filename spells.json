@@ -130,6 +130,95 @@
         "type": "none",
         "weapondelivery": false
       }
+    },
+    {
+  "aoe": {
+    "height": 0,
+    "length": 90,
+    "origin": "point",
+    "radius": 0,
+    "type": "line",
+    "width": 5
+  },
+  "combination": "EW",
+  "id": "catapult",
+  "level": 1,
+  "name": "Catapult",
+  "range": "60ft",
+  "requiresconcentration": false,
+  "school": "transmutation",
+  "spelleffects": [
+    {
+      "createobject": null,
+      "createsize": null,
+      "durationType": "instantaneous",
+      "durationUnit": null,
+      "durationValue": 0,
+      "effectDuration": -1,
+      "outcomesbysuccess": [
+        {
+          "effects": [
+            {
+              "type": "none",
+              "value": "no damage"
+            }
+          ],
+          "level": "FuckYeah"
+        },
+        {
+          "effects": [
+            {
+              "type": "none",
+              "value": "no damage"
+            }
+          ],
+          "level": "FuckUp"
+        },
+        {
+          "effects": [
+            {
+              "type": "damage",
+              "value": "TakeDamageAsStated:1"
+            }
+          ],
+          "level": "Fucked"
+        },
+        {
+          "effects": [
+            {
+              "type": "damage",
+              "value": "TakeDamageAsStated:1"
+            }
+          ],
+          "level": "FuckKing"
+        }
+      ],
+      "repeatsave": false,
+      "requiressave": true,
+      "savedc": "13:dex",
+      "savetoend": false,
+      "spelltype": "damage",
+      "subtype": "bludgeoning",
+      "summoncr": null,
+      "summoncreature": null,
+      "triggers": [],
+      "value": "3d8"
     }
+  ],
+  "target": {
+    "cantargetself": false,
+    "count": 1,
+    "creaturetyperestriction": null,
+    "hitpointlimit": "1-5lb",
+    "requiressight": true,
+    "type": "item"
+  },
+  "tohittype": {
+    "ability": null,
+    "baseattacks": 0,
+    "type": "none",
+    "weapondelivery": false
+  }
+}
   ]
 }
