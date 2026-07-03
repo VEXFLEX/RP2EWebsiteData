@@ -165,6 +165,11 @@
                   "condition": null,
                   "type": "TakeDamageAsStated",
                   "value": "1f"
+                },
+                {
+                  "condition": null,
+                  "type": "ObjectIsDropped",
+                  "value": "1f"
                 }
               ],
               "level": "Fucked"
@@ -174,6 +179,11 @@
                 {
                   "condition": null,
                   "type": "TakeDamageAsStated",
+                  "value": "1f"
+                },
+                {
+                  "condition": null,
+                  "type": "ObjectIsDropped",
                   "value": "1f"
                 }
               ],
@@ -190,32 +200,13 @@
           "summoncreature": null,
           "triggers": [],
           "value": "3d8"
-        },
-        {
-          "spelltype": "forcedMovement",
-          "value": "stop",
-          "subtype": "halt",
-          "requiressave": false,
-          "savedc": null,
-          "triggers": [],
-          "effectDuration": -1,
-          "repeatsave": false,
-          "savetoend": false,
-          "outcomesbysuccess": [],
-          "summoncreature": null,
-          "summoncr": null,
-          "createobject": null,
-          "createsize": null,
-          "durationType": "instantaneous",
-          "durationValue": 0,
-          "durationUnit": null
         }
       ],
       "target": {
         "cantargetself": false,
         "count": 1,
         "creaturetyperestriction": null,
-        "hitpointlimit": "400g to 2.5kg of weight",
+        "hitpointlimit": "0.4kg to 2.5kg of weight",
         "requiressight": true,
         "type": "item"
       },
