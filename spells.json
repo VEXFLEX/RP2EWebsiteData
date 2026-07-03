@@ -130,7 +130,7 @@
         "ability": null,
         "baseattacks": 0,
         "type": "none",
-        "weapondelivery": false
+        "eapondelivery": false
       }
     },
     {
@@ -140,9 +140,9 @@
         "origin": "point",
         "radius": 0,
         "type": "line",
-        "width": 5
+        "idth": 5
       },
-      "combination": "EW",
+      "combination": "EA",
       "id": "catapult",
       "level": 1,
       "name": "Catapult",
