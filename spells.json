@@ -182,7 +182,7 @@
           ],
           "repeatsave": false,
           "requiressave": true,
-          "savedc": "13:dex",
+          "savedc": "playerdc:dex",
           "savetoend": false,
           "spelltype": "damage",
           "subtype": "bludgeoning",
@@ -190,6 +190,25 @@
           "summoncreature": null,
           "triggers": [],
           "value": "3d8"
+        },
+        {
+          "spelltype": "forcedMovement",
+          "value": "stop",
+          "subtype": "halt",
+          "requiressave": false,
+          "savedc": null,
+          "triggers": [],
+          "effectDuration": -1,
+          "repeatsave": false,
+          "savetoend": false,
+          "outcomesbysuccess": [],
+          "summoncreature": null,
+          "summoncr": null,
+          "createobject": null,
+          "createsize": null,
+          "durationType": "instantaneous",
+          "durationValue": 0,
+          "durationUnit": null
         }
       ],
       "target": {
