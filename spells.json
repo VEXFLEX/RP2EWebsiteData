@@ -160,24 +160,24 @@
           "effectDuration": -1,
           "outcomesbysuccess": [
             {
-              "level": "Fucked"
               "effects": [
                 {
-                  "type": "TakeDamageAsStated",
                   "condition": null,
-                  "value": "1"
+                  "type": "TakeDamageAsStated",
+                  "value": "1f"
                 }
               ],
+              "level": "Fucked"
             },
             {
-              "level": "FuckKing"
-              "condition": null,
               "effects": [
                 {
+                  "condition": null,
                   "type": "TakeDamageAsStated",
-                  "value": "1"
+                  "value": "1f"
                 }
               ],
+              "level": "FuckUp"
             }
           ],
           "repeatsave": false,
